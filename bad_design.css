@@ -3,9 +3,25 @@ body{
 	text-align: center;
 	justify-content: center;
 	font-family: sans-serif;
+	background-color: grey;
+}
+
+#background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	opacity: 0.2;
+	z-index: -1;
+	mix-blend-mode: color-burn;
+
 }
 
 ul{
+	margin: 50px;
 	list-style: none;
 	text-decoration: none;
 }
@@ -22,4 +38,6 @@ a:visited{
 a:active, a:hover{
 	color: rgb(0,255,0);
 }
+
+
 
