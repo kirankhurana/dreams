@@ -1,0 +1,25 @@
+body{
+	margin: 0;
+	text-align: center;
+	justify-content: center;
+	font-family: sans-serif;
+}
+
+ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+a:link{
+	text-decoration: none;
+	color: rgb(255,0,0);
+}
+
+a:visited{
+	color: rgb(0,0,255);
+}
+
+a:active, a:hover{
+	color: rgb(0,255,0);
+}
+
