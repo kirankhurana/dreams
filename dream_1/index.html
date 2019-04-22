@@ -2,11 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Scape_1</title>
+    <title>Scape_2</title>
     <!--icon--><link rel="icon" href=" ">
-  </head>
-  
-  <body>
- 
-  </body>
+    <link rel="stylesheet" type="text/css" href="design.css">
+</head>
+<body>
+
+  <img src="media1/grid.png" id="grid">
+
+	<img src="../workshop/mask1.png" class="mask" width="100" height="100">
+	<img src="../workshop/mask2.png" class="mask" width="100" height="100">
+	<img src="../workshop/mask3.png" class="mask" width="100" height="100">
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+	$( function() {
+    $( ".mask" ).draggable();
+  	} );
+</script>
+
+</body>
 </html>
