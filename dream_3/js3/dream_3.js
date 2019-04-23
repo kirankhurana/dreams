@@ -6,9 +6,9 @@ function init() {
   let width = window.innerWidth;
   let height = window.innerHeight;
     //camera
-  camera = new THREE.PerspectiveCamera(45, width/height, 10, 25000);
-  camera.position.z = 1700;
-  camera.position.y = 200;
+  camera = new THREE.PerspectiveCamera(45, width/height, 10, 2500);
+  camera.position.z = 700;
+  camera.position.y = 0;
   scene.add(camera);
     //renderer
   renderer = new THREE.WebGLRenderer({alpha: 1, antialias: true});
@@ -20,10 +20,10 @@ function init() {
 
   // cubemap
     //CURRENT CUBEMAP MADE USING ONLINE GENERATOR (https://jonaszeitler.se/cubemap-toastmap-generator/)
-    //I intend to make my own cubemap for this project
+    //I will make my own cubemap for this project
 function map(){
   scene.background = new THREE.CubeTextureLoader()
-    .setPath( 'bedcube/' )
+    .setPath( 'cube/' )
     .load( [
       'px.png',
       'nx.png',

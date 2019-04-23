@@ -4,6 +4,8 @@ body{
 	justify-content: center;
 	font-family: sans-serif;
 	background-color: grey;
+	font-weight: 1em;
+	/*https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
 }
 
 #background{
