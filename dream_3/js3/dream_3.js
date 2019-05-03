@@ -23,7 +23,7 @@ function init() {
     //I will make my own cubemap for this project
 function map(){
   scene.background = new THREE.CubeTextureLoader()
-    .setPath( 'cube/' )
+    .setPath( 'drawcube/' )
     .load( [
       'px.png',
       'nx.png',
@@ -31,6 +31,9 @@ function map(){
       'ny.png',
       'pz.png',
       'nz.png'
+
+
+
     ] );
 }
 
@@ -43,4 +46,8 @@ function animate() {
 init();
 map();
 animate();
+
+window.addEventListener('resize', function() {
+  init();
+  });
 
