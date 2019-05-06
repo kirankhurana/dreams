@@ -23,7 +23,7 @@ function init() {
     //I will make my own cubemap for this project
 function map(){
   scene.background = new THREE.CubeTextureLoader()
-    .setPath( 'drawcube/' )
+    .setPath( 'final/' )
     .load( [
       'px.png',
       'nx.png',
