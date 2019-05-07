@@ -1,14 +1,11 @@
 body{
 	margin: 0;
-	text-align: center;
-	justify-content: center;
-	font-family: sans-serif;
-	background-color: grey;
-	font-weight: 1em;
+	background-color: black;
 	/*https://developer.mozilla.org/en-US/docs/Web/CSS/cursor*/
+	cursor: crosshair;
 }
 
-#background{
+#grid{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -17,33 +14,32 @@ body{
 	width: auto;
 	height: auto;
 	opacity: 0.2;
-	z-index: -1;
-	mix-blend-mode: color-burn;
-
 }
 
-ul{
-	margin: 50px;
-	list-style: none;
-	text-decoration: none;
+#menu{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mask{
+	margin-top: 150px;
+	mix-blend-mode: hard-light;
+	opacity: 1;
+	cursor: help;
 }
 
 a:link{
-	text-decoration: none;
-	color: rgb(255,0,0);
+	opacity: 0;
 }
 
 a:visited{
-	color: rgb(0,0,255);
+	opacity: 1;
 }
 
 a:active, a:hover{
-	color: rgb(0,255,0);
+	opacity: 1;
 }
 
-p{
-	color: red;
-}
 
 
 
