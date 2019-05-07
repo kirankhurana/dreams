@@ -2,16 +2,30 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>dream#1</title>
+	<title>dream_1_remix</title>
 	<link rel="icon" type="image/png" href="media/mask2.png">
 	<link rel="stylesheet" type="text/css" href="design.css">
 </head>
 <body>
 
-	<!--<img src="media/background.mp4" id="background">-->
-	<video src="media/background.mov" id="background" width="800" height="400" autoplay loop>
+	<!-- 
+	<img src="media/background.png" id="background">
+	<video src="media/background2.mp4" id="background" width="800" height="400" autoplay loop>
 		Error: your browser does not support this video
 	</video>
+-->
+<div id="grid">
+<img src="media/one.png" width="400" height="250" class="collage">
+<img src="media/two.png" width="400" height="250" class="collage">
+<img src="media/three.png" width="400" height="250" class="collage">
+<img src="media/four.png" width="400" height="250" class="collage">
+<img src="media/five.png" width="400" height="250" class="collage">
+<img src="media/six.png" width="400" height="250" class="collage">
+<img src="media/seven.png" width="400" height="250" class="collage">
+<img src="media/eight.png" width="400" height="250" class="collage">
+<img src="media/nine.png" width="400" height="250" class="collage">
+</div>
+
 
 	<div id="monsters">
 		<a href="../index.html">
@@ -35,7 +49,7 @@
   	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script>
 		$( function() {
-    		$( ".mask" ).draggable();
+    		$( ".collage" ).draggable();
   		} );
   	</script>
 </body>
