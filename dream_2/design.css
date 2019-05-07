@@ -7,7 +7,7 @@ body {
 }
 
 canvas {
- cursor: zoom-in;
+ cursor: wait;
 }
 
 p {font-family: 'Courier New', monospace;}
